@@ -146,7 +146,7 @@ body {
     position: absolute;
     top: -20%;
     left: 25%;
-    transform: translate(-50, -50);
+/*     transform: translate(-50, -50); */
 }
 
 .floating .heading {
@@ -326,7 +326,7 @@ small {
         position: absolute;
         top: -15%;
         left: 10%;
-        transform: translate(-50, -50);
+/*         transform: translate(-50, -50); */
     }
 
     .floating .heading {
@@ -389,7 +389,7 @@ small {
         position: absolute;
         /* top: -20%; */
         left: 10%;
-        transform: translate(-50, -50);
+/*         transform: translate(-50, -50); */
     }
 
     .floating .heading {

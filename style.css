@@ -39,8 +39,6 @@ body {
     background: rgba(255, 255, 255, 0.479);
 }
 
-
-
 .container {
     display: flex;
     justify-content: center;
@@ -102,12 +100,9 @@ body {
     border: 1px solid #fff;
     border-radius: 20px;
     box-shadow: 0px 0px 3px 3px rgba(128, 128, 128, 0.089);
-    transition: width 2s;
+    transition: width 5s;
 }
 
-.flex-container:hover {
-    width: 80%;
-}
 .flex-container .flex-item {
     flex: 40%;
     padding: 3rem;
@@ -125,14 +120,21 @@ body {
 
 .reverse {
     flex-direction: row-reverse;
-
 }
 
+.reverse:hover {
+    width: 80%;
+    margin: auto;
+}
+
+.reverse:active {
+    width: 80%;
+    margin: auto;
+}
 
 .flex-item img {
     width: 100%;
 }
-
 
 .floating {
     box-sizing: border-box;
@@ -146,7 +148,7 @@ body {
     position: absolute;
     top: -20%;
     left: 25%;
-/*     transform: translate(-50, -50); */
+    transform: translate(-50, -50);
 }
 
 .floating .heading {
